@@ -11,7 +11,7 @@
 - Адаптивная страница, мобильное меню, карта и контакты.
 - Форма заявки с валидацией, AJAX-ответом и почтовой отправкой.
 
-В основной ветке `master` разрешены конфликты слияния в PHP, маршрутах, CSS и Blade-шаблонах. Дальнейшие изменения интерфейса и доставки заявок находятся в отдельной ветке [codex/audit-and-hardening](https://github.com/boot88/Diski_polimer/tree/codex/audit-and-hardening); её возможности не следует смешивать с основной версией.
+В основной ветке `master` разрешены конфликты слияния в PHP, маршрутах, CSS и Blade-шаблонах. Дальнейшие изменения интерфейса и доставки заявок находятся в отдельной ветке [codex/audit-and-hardening](https://github.com/boot88/wheel-coating-configurator/tree/codex/audit-and-hardening); её возможности не следует смешивать с основной версией.
 
 ## Технологии
 
@@ -31,8 +31,8 @@ PHP 8.2+, Laravel 12, Blade, JavaScript, CSS и почтовые средств�
 ## Локальный запуск
 
 ```bash
-git clone https://github.com/boot88/Diski_polimer.git
-cd Diski_polimer
+git clone https://github.com/boot88/wheel-coating-configurator.git
+cd wheel-coating-configurator
 composer install
 cp .env.example .env
 php artisan key:generate
